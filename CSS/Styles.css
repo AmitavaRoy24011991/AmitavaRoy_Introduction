@@ -1,0 +1,317 @@
+body{
+    background-image: linear-gradient(to bottom,  violet,indigo,blue,green,yellow, orange, red);
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    color:  wheat;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    margin:auto;
+    margin-bottom: -1.5%;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    margin:-1.25%;
+}
+
+hr { 
+    background-size: contain;
+    background-image: linear-gradient(to right,  violet,indigo,blue,green,yellow, orange, red);
+    display: dotted;
+    height: 36px;
+    width: 50%;
+    border: 0;
+    position:relative;
+}
+
+/********************INDEX*********************/
+
+.Photo{
+    width: 100%;
+    white-space: nowrap;
+    padding-bottom: 1.25%;
+}
+.PhotoL{
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+.Para{
+    display: inline-block;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-top: -5%;
+    text-align: left;
+    line-height: 2;
+    color:black;
+}
+.PhotoPP{
+    display: inline-block;
+    width: 20%;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+/********************MPA & BPA*********************/
+
+.MPABPA{
+    width: 100%;
+    white-space: nowrap;
+    padding-bottom: 5%;
+}
+.MPApic{
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 0%;
+    padding-top: 5%;
+}
+.MPApara{
+    display: inline-block;
+    width: 25%;
+    margin-left: 2.5%;
+    text-align: left;
+    line-height: 2;
+    color: white;
+}
+.BPApic{
+    display: inline-block;
+    width: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 5%;
+}
+.BPApara{
+    display:inline-block;
+    width: 25%;
+    margin-right: 5%;
+    margin-left: 2.5%;
+    text-align: left;
+    line-height: 2;
+    color: white;
+}
+
+/********************CHR*********************/
+
+.CHR{
+    width: 100%;
+}
+.CHRpara{
+    width: 72.5%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    color: black;
+}
+.CHRimg{
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 5%;
+    padding-top: 10%;
+}
+/********************DATABASE MANAGEMENT*********************/
+.DatabaseManagement{
+    width: 100%;
+}
+.DatabasePara{
+    width: 50%;
+    margin: 5% auto;
+    text-align: left;
+    line-height: 2;
+    color: white;
+}
+.RTSQLimg{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    padding-top: 5%;
+}
+.Oracleimg{
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    margin-left: 2.5%;
+    padding-top: 5%;
+}
+/********************FINANCIAL ANALYTICS*********************/
+.FinancialAnalyst{
+    width: 100%;
+}
+.FinancePara{
+    width: 50%;
+    margin: 5% auto;
+    text-align: left;
+    line-height: 2;
+    color: white;
+}
+.FinancialAnalystImg{
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 20%;
+    padding-top: 5%;
+}
+/********************DATA ANALYTICS*********************/
+.DataAnalytics{
+    width: 100%;
+}
+.PowerBI{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+.Tableau{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+.DataPara{
+    width: 50%;
+    margin: 5% auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 2.5%;
+    color: white;
+}
+/********************DATA SCIENCE*********************/
+.Python{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+    padding-top: 5%;
+    color: black;    
+}
+.PythonImg{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    padding-top: 2.5%;
+}
+.CPP{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    color: black;
+}
+.CImg{
+    width: 40%;
+    float: left;
+    margin-right: 7.5%;
+}
+/********************VIDEO EDITING*********************/
+.VideoEditing{
+    width: 100%;
+}
+.Resolve{
+    width: 25%;
+    float: left;
+    padding-top: 5%;
+    margin-left: 15%;
+    margin-right: 4.5%;
+}
+.Adobe{
+    width: 25%;
+    float: right;
+    padding-top: 5%;
+    margin-right: 15%;
+    margin-left: 4.5%;
+}
+.Video{
+    width: 40%;
+    margin: 5% auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 0%;
+    color: black;
+}
+
+/********************MUKUL ROY*********************/
+
+.Mukul{
+    width: 100%;
+    padding-bottom: 2.5%;
+}
+.MukulImg{
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 0%;
+    padding-top: 5%;
+}
+.MukulPara{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: left;
+    line-height: 2;
+    color: white;
+}
+
+/********************NET*********************/
+
+.NET{
+    white-space: nowrap;
+    width: 100%;
+    padding-bottom: 2.5%;
+}
+.NETimg{
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 2.5%;
+    padding-top: 2.5%;
+}
+.NETpara{
+    width: 52.5%;
+    margin-left: 5%;;
+    text-align: left;
+    line-height: 2;
+    padding-top: 5%;
+    color: black;
+}
+.NETtable{
+    white-space: nowrap;
+    padding-top: 5%;
+    padding-bottom: 1.25%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    caption-side: bottom;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+}
+
+th {
+  background-color:black;
+}
+.caption{
+    padding-bottom: 5%;
+}
