@@ -67,8 +67,8 @@ hr {
     width: 1000px;
     margin: auto;
     white-space: nowrap;
-    padding-top: 0%;
-    padding-bottom: 5%;
+    padding-top: 0px;
+    padding-bottom: 100px;
 }
 .MPA{
   width: 460px;
@@ -119,6 +119,7 @@ hr {
 .CHR{
     width: 1000px;
     margin: auto;
+    padding-top: 0px;
 }
 .CHRpara{
     display: inline-flexbox;
